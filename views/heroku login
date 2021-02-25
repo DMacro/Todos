@@ -1,0 +1,11 @@
+ heroku login
+ heroku create --stack heroku-18
+
+
+ $ cd my-project/
+$ git init
+$ heroku git:remote -a ls-rb175-db-sinatra-todos
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
